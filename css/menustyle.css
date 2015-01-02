@@ -1,0 +1,52 @@
+
+
+.dropmenu {
+   position: absolute;
+   left: -1500px;
+   visibility: visible;
+   z-index: 101;
+   float: left;
+   width: 129px;
+
+   border-width: 1px;
+   border-style: solid;
+   border-color: #009999;	
+   background-color: #F8F8E0;
+}
+.dropmenu ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+.dropmenu li {
+   display: inline;
+}
+.dropmenu a, .dropmenu a:visited, .dropmenu a:active {
+   display: block;
+   width: 125px;
+
+   padding: 2px;
+   margin: 0px;
+   font-family: Arial;
+   font-style: italic;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: left;
+   text-decoration: none;
+
+   color: #009999;
+   background-color: #F8F8E0;
+}
+.dropmenu a:hover {
+   padding: 2px;
+   margin: 0px;
+   font-family: Arial;
+   font-style: italic;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: left;
+   text-decoration: none;
+
+   color: #66DDDD;
+   background-color: #F8F8E0;
+}
